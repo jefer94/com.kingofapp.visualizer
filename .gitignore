@@ -3,6 +3,7 @@ bower_components/
 dist/
 .tmp/
 yarn-error.log
+pnpm-debug.log
 www/modules/
 www/services/
 www/spinners/

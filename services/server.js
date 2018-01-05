@@ -20,6 +20,5 @@ app
   })
   // listen port
   .listen(port, function() {
-    console.log('\n  King Of App server is ready');
-    console.log('\x1b[36m    http://localhost:' + port + '\n');
+    console.log('\n  King Of App server is ready\n\x1b[36m    http://localhost:' + port + '\n');
   });
