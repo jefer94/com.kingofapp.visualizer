@@ -7,7 +7,9 @@ pnpm-debug.log
 www/modules/
 www/services/
 www/spinners/
+www/components/
 services/
+core/structure.json
 !services/server.js
 !www/modules/demo/
 !www/modules/googlemap/
