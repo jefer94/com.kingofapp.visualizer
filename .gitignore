@@ -10,6 +10,8 @@ www/spinners/
 www/components/
 services/
 core/structure.json
+*.swp
+**/*.swp
 !services/server.js
 !www/modules/demo/
 !www/modules/googlemap/
