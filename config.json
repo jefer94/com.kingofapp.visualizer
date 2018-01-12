@@ -7,7 +7,6 @@
     "gulp-tasks/**/*.js",
     "services/**/*.js",
     "www/**/*.{html,js}",
-    "!www/components/**/*.{html,js}",
     "!www/bower_components/**/*",
     "!www/modules/**/*",
     "!www/themes/**/*",

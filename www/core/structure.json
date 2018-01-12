@@ -105,31 +105,6 @@
             "path": "/menu-abcd/map-abcd",
             "bgImage": "",
             "bgColor": ""
-          },
-          {
-            "path": "/menu-abcd/jquerypopupmenu-abcd",
-            "bgImage": "",
-            "bgColor": ""
-          },
-          {
-            "path": "/menu-abcd/circle-menu-abcd",
-            "bgImage": "",
-            "bgColor": ""
-          },
-          {
-            "path": "/menu-abcd/floating-menu-abcd",
-            "bgImage": "",
-            "bgColor": ""
-          },
-          {
-            "path": "/menu-abcd/interactive-menu-abcd",
-            "bgImage": "",
-            "bgColor": ""
-          },
-          {
-            "path": "/menu-abcd/popup-menu-abcd",
-            "bgImage": "",
-            "bgColor": ""
           }
         ],
         "panelClass": "lightaccent",
@@ -160,12 +135,10 @@
         "dragDrop": true
       },
       "view": "modules/html/index.html",
-      "files": [
-        "modules/html/controller.js"
-      ],
+      "files": ["modules/html/controller.js"],
       "scope": {
         "value": "<p style='color:#39a9d3'>Welcome to my </p><p style='color:#d36339'>APP</p>",
-        "display": ""
+        "display" : ""
       }
     },
     "/menu-abcd/elements-abcd": {
@@ -178,9 +151,7 @@
         "dragDrop": true
       },
       "view": "modules/demo/index.html",
-      "files": [
-        "modules/demo/controller.js"
-      ],
+      "files": ["modules/demo/controller.js"],
       "scope": {
         "value": true
       }
@@ -195,273 +166,18 @@
         "dragDrop": true
       },
       "view": "modules/googlemap/index.html",
-      "files": [
-        "modules/googlemap/controller.js",
-        "modules/googlemap/directive.js",
-        "modules/googlemap/style.css"
-      ],
-      "libs": [
-        {
-          "bower": {
-            "GoogleWebComponents/google-map": "^1.1.7"
-          },
-          "src": "bower_components/google-map/google-map.html"
-        }
-      ],
+      "files": ["modules/googlemap/controller.js", "modules/googlemap/directive.js", "modules/googlemap/style.css"],
+      "libs": [{
+        "bower": {
+          "GoogleWebComponents/google-map": "^1.1.7"
+        },
+        "src": "bower_components/google-map/google-map.html"
+      }],
       "scope": {
         "lat": "39.8847281",
         "lon": "4.2540999",
-        "api": "AIzaSyANxt-hXcUf8PB0Tw1eFIB9qgby2Cmi-7w",
+        "api": "AIzaSyANxt-hXcUf8PB0Tw1eFIB9qgby2Cmi-7w", 
         "zoom": "15"
-      }
-    },
-    "/menu-abcd/jquerypopupmenu-abcd": {
-      "name": "jquerypopupmenu",
-      "identifier": "jquerypopupmenu",
-      "icon": "room",
-      "type": "A",
-      "version": "0.0.1",
-      "author": "Jeferson",
-      "category": [
-        "others"
-      ],
-      "price": 0,
-      "subscription": false,
-      "canContain": false,
-      "platforms": [
-        "android",
-        "ios",
-        "windows"
-      ],
-      "view": "modules/jquerypopupmenu/index.html",
-      "files": [
-        "bower_components/gsap/src/minified/TweenMax.min.js",
-        "components/popup-menu/vendor/Popup-plugin.css",
-        "components/popup-menu/vendor/Popup-plugin.js",
-        "bower_components/font-awesome/css/font-awesome.min.css",
-        "bower_components/material-icons/css/material-icons.min.css",
-        "components/popup-menu/component.js",
-        "components/floating-button/component.js",
-        "components/floating-button/style.css",
-        "components/interactive-menu/component.js",
-        "components/interactive-menu/style.css",
-        "components/circle-menu/component.js",
-        "modules/jquerypopupmenu/controller.js",
-        "modules/jquerypopupmenu/style.html"
-      ],
-      "scope": {
-        "demoKey": "demo text"
-      },
-      "libs": [],
-      "showOn": {
-        "menu": true,
-        "market": true,
-        "dragDrop": true
-      }
-    },
-    "/menu-abcd/circle-menu-abcd": {
-      "name": "circle-menu",
-      "identifier": "circle-menu",
-      "icon": "room",
-      "type": "A",
-      "version": "0.0.1",
-      "author": "Jeferson",
-      "category": [
-        "others"
-      ],
-      "price": 0,
-      "subscription": false,
-      "canContain": false,
-      "platforms": [
-        "android",
-        "ios",
-        "windows"
-      ],
-      "view": "modules/circle-menu/index.html",
-      "files": [
-        "modules/circle-menu/controller.js",
-        "modules/circle-menu/style.html"
-      ],
-      "scope": {
-        "demoKey": "demo text"
-      },
-      "libs": [],
-      "showOn": {
-        "menu": true,
-        "market": true,
-        "dragDrop": true
-      }
-    },
-    "/menu-abcd/floating-menu-abcd": {
-      "name": "floating-menu",
-      "identifier": "floating-menu",
-      "icon": "room",
-      "type": "A",
-      "version": "0.0.1",
-      "author": "Jeferson",
-      "category": [
-        "others"
-      ],
-      "price": 0,
-      "subscription": false,
-      "canContain": false,
-      "platforms": [
-        "android",
-        "ios",
-        "windows"
-      ],
-      "view": "modules/floating-menu/index.html",
-      "files": [
-        "components/floating-button/component.js",
-        "components/floating-button/style.css",
-        "modules/floating-menu/controller.js",
-        "modules/floating-menu/style.html"
-      ],
-      "scope": {
-        "demoKey": "demo text"
-      },
-      "libs": [],
-      "showOn": {
-        "menu": true,
-        "market": true,
-        "dragDrop": true
-      }
-    },
-    "/menu-abcd/interactive-menu-abcd": {
-      "name": "interactive-menu",
-      "identifier": "interactive-menu",
-      "icon": "room",
-      "type": "A",
-      "version": "0.0.1",
-      "author": "Jeferson",
-      "category": [
-        "others"
-      ],
-      "price": 0,
-      "subscription": false,
-      "canContain": false,
-      "platforms": [
-        "android",
-        "ios",
-        "windows"
-      ],
-      "view": "modules/interactive-menu/index.html",
-      "files": [
-        "modules/interactive-menu/controller.js",
-        "modules/interactive-menu/style.html"
-      ],
-      "scope": {
-        "demoKey": "demo text"
-      },
-      "libs": [],
-      "showOn": {
-        "menu": true,
-        "market": true,
-        "dragDrop": true
-      }
-    },
-    "/menu-abcd/popup-menu-abcd": {
-      "name": "popup-menu",
-      "identifier": "popup-menu",
-      "icon": "room",
-      "type": "A",
-      "version": "0.0.1",
-      "author": "Jeferson",
-      "category": [
-        "others"
-      ],
-      "price": 0,
-      "subscription": false,
-      "canContain": false,
-      "platforms": [
-        "android",
-        "ios",
-        "windows"
-      ],
-      "view": "modules/popup-menu/index.html",
-      "files": [
-        "modules/popup-menu/controller.js",
-        "modules/popup-menu/style.html"
-      ],
-      "scope": {
-        "demoKey": "demo text"
-      },
-      "libs": [],
-      "showOn": {
-        "menu": true,
-        "market": true,
-        "dragDrop": true
-      }
-    }
-  },
-  "services": {
-    "jquery": {
-      "name": "jquery",
-      "identifier": "jquery",
-      "icon": "room",
-      "type": "A",
-      "version": "0.0.1",
-      "author": "Jeferson",
-      "category": [
-        "others"
-      ],
-      "price": 0,
-      "subscription": false,
-      "canContain": false,
-      "platforms": [
-        "android",
-        "ios",
-        "windows"
-      ],
-      "view": "services/jquery/index.html",
-      "files": [
-        "services/jquery/controller.js",
-        "services/jquery/style.html"
-      ],
-      "scope": {
-        "demoKey": "demo text"
-      },
-      "libs": [],
-      "showOn": {
-        "menu": true,
-        "market": true,
-        "dragDrop": true
-      }
-    },
-    "popup-menu": {
-      "name": "popup-menu",
-      "identifier": "jquery",
-      "icon": "room",
-      "type": "A",
-      "version": "0.0.1",
-      "author": "Jeferson",
-      "category": [
-        "others"
-      ],
-      "price": 0,
-      "subscription": false,
-      "canContain": false,
-      "platforms": [
-        "android",
-        "ios",
-        "windows"
-      ],
-      "files": [
-        "components/popup-menu/vendor/Popup-plugin.css",
-        "components/popup-menu/vendor/Popup-plugin.js",
-        "bower_components/font-awesome/css/font-awesome.min.css",
-        "bower_components/material-icons/css/material-icons.min.css",
-        "components/popup-menu/component.js",
-        "components/popup-menu/style.html"
-      ],
-      "scope": {
-        "demoKey": "demo text"
-      },
-      "libs": [],
-      "showOn": {
-        "menu": true,
-        "market": true,
-        "dragDrop": true
       }
     }
   }

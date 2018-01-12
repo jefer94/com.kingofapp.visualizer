@@ -11,7 +11,6 @@
     "del": "^2.2.0",
     "eslint-plugin-angular": "^1.0.0",
     "eslint-plugin-html": "^1.4.0",
-    "express": "^4.16.2",
     "grunt": "^0.4.5",
     "grunt-cli": "^0.1.13",
     "grunt-contrib-clean": "^0.6.0",
@@ -55,6 +54,8 @@
     "lint": "gulp lint"
   },
   "dependencies": {
-    "glob": "^7.1.1"
+    "glob": "^7.1.1",
+    "koa": "^2.4.1",
+    "koa-static": "^4.0.2"
   }
 }
