@@ -4,11 +4,13 @@
   angular
     .module('king.loaders.common', ['ngRoute', 'xc.indexedDB'])
     .config(setDefaultPaths);
-  setDefaultPaths.$inject = ['$routeProvider', '$sceProvider', '$analyticsProvider'];
+  setDefaultPaths.$inject = ['$routeProvider', '$locationProvider', '$sceProvider', '$analyticsProvider'];
 
-  function setDefaultPaths($routeProvider, $sceProvider, $analyticsProvider) {
+  function setDefaultPaths($routeProvider, $locationProvider, $sceProvider, $analyticsProvider) {
     $sceProvider.enabled(false);
     $analyticsProvider.firstPageview(true);
+    $locationProvider.hashPrefix('');
+    $locationProvider.html5Mode(false);
     //Default Route
     $routeProvider
       .otherwise({
