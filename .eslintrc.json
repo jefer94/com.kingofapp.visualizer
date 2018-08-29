@@ -29,6 +29,7 @@
     "StatusBar": false,
     "angular": false,
     "module": false,
-    "require": false
+    "require": false,
+    "Promise": false
   }
 }

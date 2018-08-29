@@ -17,7 +17,6 @@ function structureHooksService() {
     }
   };
 
-
   return {
     setIndex: setIndex,
     getIndex: getIndex,

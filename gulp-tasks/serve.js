@@ -10,8 +10,10 @@ var config     = require('../config.json')
 var start      = true
 
 // Serve project and watch files for changes
-gulp.task('serve', ['lint'], function() {
-  gulp.watch(config.lint, ['lint']);
+gulp.task('serve', gulp.series('lint', serve))
+
+function serve() {
+  gulp.watch(config.lint, gulp.series('lint'))
 
   livereload.listen()
   // Serve project
@@ -32,4 +34,4 @@ gulp.task('serve', ['lint'], function() {
       }
     })
   })
-})
+}

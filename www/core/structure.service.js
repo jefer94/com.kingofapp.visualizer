@@ -27,6 +27,7 @@
       };
       $rootScope.transitionOn = true;
     }
+  window.c=$rootScope
 
     return {
       get: get,
